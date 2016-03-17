@@ -11,7 +11,6 @@ I modified the script("speedtest-ifttt.sh") adding a call to a script to tweet t
 
 the line added was:
 
-#Tweet current speed
 python twitter_python.py "download: $download upload: $upload" "$share_url"
 
 the first parameter is the text of the tweet, the second is the image URL
